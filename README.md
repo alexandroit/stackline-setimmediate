@@ -1,3 +1,19 @@
+# @stackline/setimmediate
+
+Independent maintenance fork of `setimmediate@1.0.5`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/setimmediate
+# Preserve existing imports with an npm alias:
+npm install setimmediate@npm:@stackline/setimmediate@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-setimmediate/issues) · [npm](https://www.npmjs.com/package/@stackline/setimmediate).
+
+## Upstream documentation
+
 # setImmediate.js
 **A YuzuJS production**
 
