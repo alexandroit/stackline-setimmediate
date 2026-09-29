@@ -1,20 +1,49 @@
 # @stackline/setimmediate
 
-Independent maintenance fork of `setimmediate@1.0.5`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+> A shim for the setImmediate efficient script yielding API.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/setimmediate.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/setimmediate)
+[![license](https://img.shields.io/npm/l/@stackline/setimmediate.svg?style=flat-square)](https://github.com/alexandroit/stackline-setimmediate)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-setimmediate-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-setimmediate)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/setimmediate/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/setimmediate/)** | **[npm](https://www.npmjs.com/package/@stackline/setimmediate)** | **[Issues](https://github.com/alexandroit/stackline-setimmediate/issues)** | **[Repository](https://github.com/alexandroit/stackline-setimmediate)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/setimmediate` is the Stackline-maintained distribution of `setimmediate@1.0.5`. It is an independent continuation of [setimmediate](https://github.com/YuzuJS/setImmediate); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/setimmediate@1.0.1` |
+| API target | `setimmediate@1.0.5` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Main entry | `setImmediate.js` |
+| Runtime dependencies | `none` |
+
+## Installation
+
+```bash
 npm install @stackline/setimmediate
-# Preserve existing imports with an npm alias:
-npm install setimmediate@npm:@stackline/setimmediate@1.0.0
 ```
 
-See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+Preserve existing imports and plugin resolution with an npm alias:
 
-Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-setimmediate/issues) · [npm](https://www.npmjs.com/package/@stackline/setimmediate).
+```bash
+npm install setimmediate@npm:@stackline/setimmediate
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# setImmediate.js
+### setImmediate.js
 **A YuzuJS production**
 
 ## Introduction
@@ -71,13 +100,13 @@ In the browser, include it with a `<script>` tag; pretty simple.
 In Node.js, do
 
 ```
-npm install --save setimmediate
+npm install --save @stackline/setimmediate
 ```
 
 then
 
 ```js
-require("setimmediate");  // (somewhere early in your app; it attaches to the global scope.)
+require("@stackline/setimmediate");  // (somewhere early in your app; it attaches to the global scope.)
 ```
 
 
@@ -105,3 +134,28 @@ require("setimmediate");  // (somewhere early in your app; it attaches to the gl
 [postMessage]: http://www.whatwg.org/specs/web-apps/current-work/multipage/web-messaging.html#posting-messages
 [MessageChannel]: http://www.whatwg.org/specs/web-apps/current-work/multipage/web-messaging.html#channel-messaging
 [cross-browser-demo]: http://jphpsf.github.com/setImmediate-shim-demo
+
+## Credits and original authors
+
+- Original project: [setimmediate](https://github.com/YuzuJS/setImmediate).
+- YuzuJS.
+- Domenic Denicola.
+- Donavon West.
+- Yaffle.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-setimmediate).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
