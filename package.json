@@ -1,7 +1,7 @@
 {
   "name": "@stackline/setimmediate",
   "description": "A shim for the setImmediate efficient script yielding API",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "YuzuJS",
   "contributors": [
     "Domenic Denicola <d@domenic.me> (https://domenic.me)",
