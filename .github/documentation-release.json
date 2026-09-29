@@ -4,7 +4,7 @@
     {
       "name": "@stackline/setimmediate",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -15,8 +15,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/setimmediate/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/setimmediate/-/setimmediate-1.0.0.tgz",
       "baselineIntegrity": "sha512-fVdVa89nrc8d//x5a+eGJkeuEYZMx2uct73LwhJOswwAWx5PSUD2uZ6+eqWLKb4UNRFNhSlKislJIYkKr2yQWg==",
-      "expectedSha512": "d82e32440e1f58c56c883aabf4fbb3d4fc4d6b925f651ffe1cbd47264db61560c5e2c8629e53fce0748f5c498460ae7d2dfb861ea2e1a55684c26879893348c1",
-      "tag": "docs-stackline-setimmediate-v1.0.1"
+      "expectedSha512": "6985f32c09fb74131a3e95b66ff7bcea61417b9dc8e2a76be6466ea2793ec71abf5d962b63577c2edec6097c68e0ee8badb6dfb4370fbceea0b51f39774a6dd7",
+      "tag": "docs-stackline-setimmediate-v1.0.2"
     }
   ]
 }
