@@ -1,7 +1,7 @@
 {
   "name": "@stackline/setimmediate",
   "description": "A shim for the setImmediate efficient script yielding API",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "YuzuJS",
   "contributors": [
     "Domenic Denicola <d@domenic.me> (https://domenic.me)",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "mocha": "12.0.2",
-    "puppeteer-core": "25.12.0"
+    "puppeteer-core": "25.16.0"
   },
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-setimmediate/issues"
@@ -46,5 +46,9 @@
     "npm-package",
     "setimmediate",
     "maintenance-fork"
-  ]
+  ],
+  "overrides": {
+    "glob@>=9 <14.0.3": "14.0.3",
+    "minimatch@>=7 <11.0.4": "11.0.4"
+  }
 }

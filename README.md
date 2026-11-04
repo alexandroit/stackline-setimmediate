@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/setimmediate/)** | **[npm](https://www.npmjs.com/package/@stackline/setimmediate)** | **[Issues](https://github.com/alexandroit/stackline-setimmediate/issues)** | **[Repository](https://github.com/alexandroit/stackline-setimmediate)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/setimmediate@1.0.2` |
+| Package | `@stackline/setimmediate@1.0.3` |
 | API target | `setimmediate@1.0.5` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |

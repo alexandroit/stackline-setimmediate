@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 - 2026-11-04
+
+- Update development dependency constraints and CI runtimes for reviewed security advisories.
+- Preserve the public runtime API; validate the packed package with the existing consumer tests.
+
+
 ## 1.0.0 — 2026-09-29
 
 - Publish the preserved setimmediate 1.0.5 implementation under `@stackline/setimmediate`.
